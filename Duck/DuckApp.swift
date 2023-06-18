@@ -12,6 +12,7 @@ struct DuckApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }

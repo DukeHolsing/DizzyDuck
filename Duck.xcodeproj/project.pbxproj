@@ -14,6 +14,14 @@
 		AB2298AD29D5B73F008F71A2 /* DuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2298AC29D5B73F008F71A2 /* DuckTests.swift */; };
 		AB2298B729D5B73F008F71A2 /* DuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2298B629D5B73F008F71A2 /* DuckUITests.swift */; };
 		AB2298B929D5B73F008F71A2 /* DuckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2298B829D5B73F008F71A2 /* DuckUITestsLaunchTests.swift */; };
+		AB2298C629D5C80F008F71A2 /* quack.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = AB2298C529D5C80F008F71A2 /* quack.MP3 */; };
+		AB24668829DC4725009B1263 /* TapCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24668729DC4725009B1263 /* TapCounter.swift */; };
+		AB3591C52A168D010049094E /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3591C42A168D010049094E /* Save.swift */; };
+		AB4F1D132A16588C00DD9EF7 /* QUACK3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB4F1D122A16588C00DD9EF7 /* QUACK3.mp3 */; };
+		AB4F391C2A1BBC5000D8724D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F391B2A1BBC5000D8724D /* AudioPlayer.swift */; };
+		ABACA8E92A3B377000C1B90B /* selectDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACA8E82A3B377000C1B90B /* selectDuck.swift */; };
+		ABDB4C002A150DCB00CEFB5C /* Dizzy_DuckExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB4BFF2A150DCB00CEFB5C /* Dizzy_DuckExtension.swift */; };
+		ABDB4C022A150DCB00CEFB5C /* Dizzy_Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB4C012A150DCB00CEFB5C /* Dizzy_Duck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,17 @@
 		AB2298B229D5B73F008F71A2 /* DuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2298B629D5B73F008F71A2 /* DuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckUITests.swift; sourceTree = "<group>"; };
 		AB2298B829D5B73F008F71A2 /* DuckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB2298C529D5C80F008F71A2 /* quack.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quack.MP3; sourceTree = "<group>"; };
+		AB24668729DC4725009B1263 /* TapCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCounter.swift; sourceTree = "<group>"; };
+		AB3591C42A168D010049094E /* Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
+		AB4F1D0F2A16551D00DD9EF7 /* quack2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = quack2.aif; sourceTree = "<group>"; };
+		AB4F1D122A16588C00DD9EF7 /* QUACK3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QUACK3.mp3; sourceTree = "<group>"; };
+		AB4F391B2A1BBC5000D8724D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		ABACA8E82A3B377000C1B90B /* selectDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDuck.swift; sourceTree = "<group>"; };
+		ABDB4BFD2A150DCB00CEFB5C /* Dizzy Duck.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = "Dizzy Duck.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDB4BFF2A150DCB00CEFB5C /* Dizzy_DuckExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dizzy_DuckExtension.swift; sourceTree = "<group>"; };
+		ABDB4C012A150DCB00CEFB5C /* Dizzy_Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dizzy_Duck.swift; sourceTree = "<group>"; };
+		ABDB4C032A150DCB00CEFB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,15 +88,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABDB4BFA2A150DCB00CEFB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		AB22988E29D5B73F008F71A2 = {
 			isa = PBXGroup;
 			children = (
+				AB4F391B2A1BBC5000D8724D /* AudioPlayer.swift */,
 				AB22989929D5B73F008F71A2 /* Duck */,
 				AB2298AB29D5B73F008F71A2 /* DuckTests */,
 				AB2298B529D5B73F008F71A2 /* DuckUITests */,
+				ABDB4BFE2A150DCB00CEFB5C /* Dizzy Duck */,
 				AB22989829D5B73F008F71A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +116,7 @@
 				AB22989729D5B73F008F71A2 /* Duck.app */,
 				AB2298A829D5B73F008F71A2 /* DuckTests.xctest */,
 				AB2298B229D5B73F008F71A2 /* DuckUITests.xctest */,
+				ABDB4BFD2A150DCB00CEFB5C /* Dizzy Duck.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +126,10 @@
 			children = (
 				AB22989A29D5B73F008F71A2 /* DuckApp.swift */,
 				AB22989C29D5B73F008F71A2 /* ContentView.swift */,
+				AB24668729DC4725009B1263 /* TapCounter.swift */,
+				AB3591C42A168D010049094E /* Save.swift */,
+				ABACA8E82A3B377000C1B90B /* selectDuck.swift */,
+				AB2298C729D5C90F008F71A2 /* Sounds */,
 				AB22989E29D5B73F008F71A2 /* Assets.xcassets */,
 				AB2298A029D5B73F008F71A2 /* Duck.entitlements */,
 				AB2298A129D5B73F008F71A2 /* Preview Content */,
@@ -127,6 +160,26 @@
 				AB2298B829D5B73F008F71A2 /* DuckUITestsLaunchTests.swift */,
 			);
 			path = DuckUITests;
+			sourceTree = "<group>";
+		};
+		AB2298C729D5C90F008F71A2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AB2298C529D5C80F008F71A2 /* quack.MP3 */,
+				AB4F1D122A16588C00DD9EF7 /* QUACK3.mp3 */,
+				AB4F1D0F2A16551D00DD9EF7 /* quack2.aif */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		ABDB4BFE2A150DCB00CEFB5C /* Dizzy Duck */ = {
+			isa = PBXGroup;
+			children = (
+				ABDB4BFF2A150DCB00CEFB5C /* Dizzy_DuckExtension.swift */,
+				ABDB4C012A150DCB00CEFB5C /* Dizzy_Duck.swift */,
+				ABDB4C032A150DCB00CEFB5C /* Info.plist */,
+			);
+			path = "Dizzy Duck";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +238,23 @@
 			productReference = AB2298B229D5B73F008F71A2 /* DuckUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ABDB4BFC2A150DCB00CEFB5C /* Dizzy Duck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDB4C062A150DCB00CEFB5C /* Build configuration list for PBXNativeTarget "Dizzy Duck" */;
+			buildPhases = (
+				ABDB4BF92A150DCB00CEFB5C /* Sources */,
+				ABDB4BFA2A150DCB00CEFB5C /* Frameworks */,
+				ABDB4BFB2A150DCB00CEFB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dizzy Duck";
+			productName = "Dizzy Duck";
+			productReference = ABDB4BFD2A150DCB00CEFB5C /* Dizzy Duck.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,8 +262,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AB22989629D5B73F008F71A2 = {
 						CreatedOnToolsVersion = 14.2;
@@ -205,6 +275,9 @@
 					AB2298B129D5B73F008F71A2 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = AB22989629D5B73F008F71A2;
+					};
+					ABDB4BFC2A150DCB00CEFB5C = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
@@ -224,6 +297,7 @@
 				AB22989629D5B73F008F71A2 /* Duck */,
 				AB2298A729D5B73F008F71A2 /* DuckTests */,
 				AB2298B129D5B73F008F71A2 /* DuckUITests */,
+				ABDB4BFC2A150DCB00CEFB5C /* Dizzy Duck */,
 			);
 		};
 /* End PBXProject section */
@@ -233,8 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4F1D132A16588C00DD9EF7 /* QUACK3.mp3 in Resources */,
 				AB2298A329D5B73F008F71A2 /* Preview Assets.xcassets in Resources */,
 				AB22989F29D5B73F008F71A2 /* Assets.xcassets in Resources */,
+				AB2298C629D5C80F008F71A2 /* quack.MP3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +328,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABDB4BFB2A150DCB00CEFB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,7 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3591C52A168D010049094E /* Save.swift in Sources */,
+				AB24668829DC4725009B1263 /* TapCounter.swift in Sources */,
+				AB4F391C2A1BBC5000D8724D /* AudioPlayer.swift in Sources */,
 				AB22989D29D5B73F008F71A2 /* ContentView.swift in Sources */,
+				ABACA8E92A3B377000C1B90B /* selectDuck.swift in Sources */,
 				AB22989B29D5B73F008F71A2 /* DuckApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +365,15 @@
 			files = (
 				AB2298B729D5B73F008F71A2 /* DuckUITests.swift in Sources */,
 				AB2298B929D5B73F008F71A2 /* DuckUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDB4BF92A150DCB00CEFB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDB4C002A150DCB00CEFB5C /* Dizzy_DuckExtension.swift in Sources */,
+				ABDB4C022A150DCB00CEFB5C /* Dizzy_Duck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -330,9 +427,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -359,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -388,9 +488,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -413,12 +515,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Duck/Duck.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Duck/Preview Content\"";
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dizzy Duck";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -433,8 +537,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = what.Duck;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukeholsing.dizzyDuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -451,12 +555,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Duck/Duck.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Duck/Preview Content\"";
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dizzy Duck";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -471,8 +577,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = what.Duck;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukeholsing.dizzyDuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -489,6 +595,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -512,6 +619,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -534,6 +642,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -556,6 +665,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4N5T88HBZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -569,6 +679,63 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Duck;
+			};
+			name = Release;
+		};
+		ABDB4C042A150DCB00CEFB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N5T88HBZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dizzy Duck/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dizzy Duck";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-Holsing.Dizzy-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		ABDB4C052A150DCB00CEFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N5T88HBZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dizzy Duck/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dizzy Duck";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-Holsing.Dizzy-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Release;
 		};
@@ -607,6 +774,15 @@
 			buildConfigurations = (
 				AB2298C329D5B73F008F71A2 /* Debug */,
 				AB2298C429D5B73F008F71A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDB4C062A150DCB00CEFB5C /* Build configuration list for PBXNativeTarget "Dizzy Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDB4C042A150DCB00CEFB5C /* Debug */,
+				ABDB4C052A150DCB00CEFB5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
